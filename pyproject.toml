@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emerge-uav-sim"
+version = "0.1.0"
+description = "Emergent UAV Role Simulator — PettingZoo multi-agent environment for studying emergent role specialization"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "gymnasium>=0.29",
+    "pettingzoo>=1.24",
+    "pygame>=2.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+train = ["torch>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["emerge_uav_sim*"]
