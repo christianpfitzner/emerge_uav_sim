@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 emerge_uav_sim/__init__.py
 emerge_uav_sim.egg-info/PKG-INFO
@@ -17,4 +18,11 @@ emerge_uav_sim/envs/__init__.py
 emerge_uav_sim/envs/uav_team_env.py
 emerge_uav_sim/rendering/__init__.py
 emerge_uav_sim/rendering/renderer.py
+emerge_uav_sim/rendering/status_panel.py
+emerge_uav_sim/training/__init__.py
+emerge_uav_sim/training/buffer.py
+emerge_uav_sim/training/mappo.py
+emerge_uav_sim/training/networks.py
+emerge_uav_sim/training/parallel_trainer.py
+emerge_uav_sim/training/training_panel.py
 tests/test_env.py
